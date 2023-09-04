@@ -1,0 +1,397 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+    <style>
+        /* Reset default margin and padding */
+
+body, h1, h2, p {
+
+    margin: 0;
+    text-align: center;
+    padding: 0;
+
+  }
+
+
+
+  /* Global styles */
+
+  body {
+
+    font-family: Arial, sans-serif;
+
+    color: #333;
+
+  }
+
+
+
+  /* Header and navigation styles */
+
+  header {
+
+    background-color: #333;
+
+    color: #fff;
+
+    padding: 1rem 0;
+
+  }
+
+
+
+  nav ul {
+
+    list-style: none;
+
+    display: flex;
+
+    justify-content: center;
+
+    background-color: #444;
+
+    padding: 0;
+
+  }
+
+
+
+  nav li {
+
+    margin: 0;
+
+    padding: 0.5rem;
+
+  }
+
+
+
+  nav a {
+
+    color: #fff;
+
+    text-decoration: none;
+
+  }
+
+
+
+  /* Section styles */
+
+  section {
+
+    padding: 2rem;
+
+  }
+
+
+
+  /* Content container styles */
+
+  .content {
+
+    max-width: 800px;
+
+    margin: 0 auto;
+
+  }
+
+
+
+  /* Hero section styles */
+
+  .hero {
+
+    text-align: center;
+
+  }
+
+
+
+  /* Blockquote styles */
+
+  blockquote {
+
+    font-style: italic;
+
+    color: #888;
+
+    margin: 1rem 0;
+
+  }
+
+
+
+  /* Gallery styles */
+
+  .image-gallery {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+  }
+
+
+
+  .image-gallery img {
+
+    width: 30%;
+
+    margin-bottom: 20px;
+
+  }
+
+
+
+  /* Footer styles */
+
+  footer {
+
+    text-align: center;
+
+    background-color: #333;
+
+    color: #fff;
+
+    padding: 1rem 0;
+
+  }
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  #center{
+    margin-left: 38%;
+  }
+    </style>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Teachers' Day Celebration</title>
+
+</head>
+
+<body style="background:url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fteachers-day-background&psig=AOvVaw0FgJpTWCNImUF-wg9Udibf&ust=1693736220479000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKiR5J_Zi4EDFQAAAAAdAAAAABAE')" bgcolor="orangered">
+  <header>
+
+    <nav>
+
+      <ul>
+
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#Importance">Importance</a></li>
+
+        <li><a href="#quotes">Quotes</a></li>
+
+        <li><a href="#gallery">Gallery</a></li>
+        
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <section id="home">
+
+    <div class="hero">
+              <img src="data:image/png;base64,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" alt="Teacher 2">
+<H1>Presents</H1>
+
+      <h1 class="Comic Sans MS">Happy Teachers' Day</h1>
+
+      <p>Celebrating the dedicated educators who inspire us.</p>
+
+    </div>
+
+
+  </section>
+
+  <section id="about">
+
+    <div class="content">
+
+      <h2>About Teachers' Day</h2>
+
+      <p>Teachers' Day is a special occasion to honor and appreciate the hard work of teachers around the world. Teachers' Day in India is celebrated on 5th September to commemorate the birth anniversary of Dr. Sarvepalli Radhakrishnan. He was a renowned scholar, recipient of Bharat Ratna, first Vice-President, and second President of independent India. He was born on 5 September 1888.</p>
+
+    </div>
+
+    <br>
+    <br>
+  <section id="Importance">
+    
+    <div class="content">
+      <h2>Importance</h2>
+      <img src="https://d3cif2hu95s88v.cloudfront.net/blog/wp-content/uploads/2021/08/23081339/What-is-the-Significance-and-Importance-of-Teachers-Day.jpg" alt="">
+      <br>
+      <p>Dr. Sarvepalli Radhakrishanan. The legend was the first vice president and the second president of India. He also decorated his position as a distinguished envoy, advocate of education, and all of the above a great teacher. In memory of his legacy, India started celebrating teacher's day from 5th September 1962.
+      </P>
+      <br>
+      <p><b>Importance of Teacher's Day</b></p>
+      <p>Teaching is considered as one of the noblest professions as it contributes a greater educated population to the world. Teachers are the ones who choose their careers to spread knowledge and wisdom. Only educated workforces can up-bring the nation to the developed stage. For this one must be well-educated with proper guidance and visions. A teacher not merely teaches the students about lessons in the textbooks, but mold a child into a socially responsible person. They are role models for many and are respected by society as a whole. Do you know the importance of teachers day? And why do they deserve more recognition? Here are some of the reasons:
+        <br>
+      <ul>
+        <li>They make learning creative so as to make their students understand and imbibe the knowledge quickly.</li>
+        <li>Teachers are always an inspiration to students and give motivation to them in every step.</li>
+        <li>So the students, teachers, or mentors are also equally stressed. So they need to be respected.</li>
+        <li>Teachers are the best inspiring sources and the magicians too for the students</li>
+        <li>They have a greater tolerance for dealing with every type of student within a class.</li>
+        <br>
+        These are some of the reasons why a teacher requires appreciation and recognition. There are countless reasons to hold an eminent position in every student's life.</p>
+        <br>
+        <br>
+        <br>
+        
+
+    <div class="content">
+    
+      <h2>Full form of Teachers</h2>
+      <p>Do you know the Full Form of teacher that describes the qualities of a teacher. It is mentioned below.</p>
+      <ul>
+        <li>T- Talented</li>
+        <li>E- Enthuisastic</li>
+        <li>A- Amazing</li>
+        <li>C- Calm</li>
+        <li>H- Happy</li>
+        <li>E- Effective</li>
+        <li>R- Rocking</li>
+      </ul>
+      </div>  
+
+  </section>
+
+  <section id="quotes">
+
+    <div class="content">
+
+      <h2>Inspiring Quotes</h2>
+
+      <blockquote>"A good teacher can inspire hope, ignite the imagination, and instill a love of learning." - Brad Henry</blockquote>
+
+      <blockquote>"Education is the key to success in life, and teachers make a lasting impact in the lives of their students." - Solomon Ortiz</blockquote>
+      
+      <blockquote>"Teaching is a very noble proffesion that shapes the character, caliber and future of a individual. If the people remember me as a good teacher that will be the best honour for me." - A.P.J Abdul Kalam
+    </div>
+
+  </section>
+
+  <section id="gallery">
+
+    <h2>Photo Gallery</h2>
+
+    <div class="gallery">
+        <a target="_blank" href="img_5terre.jpg">
+          <img src="KARISMA MAAM.jpg"width="600" height="400">
+        </a>
+        <div class="desc">Karishma Maam</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img src="https://media.licdn.com/dms/image/D4D03AQHbo3JQUYk8ew/profile-displayphoto-shrink_800_800/0/1665607893816?e=2147483647&v=beta&t=JxOniCH1MTTKA_EsP3bVAngKlf4OyZaMLbLGIf-QZa8" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Naresh Sir</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="img_lights.jpg">
+          <img src="https://media.licdn.com/dms/image/D4D03AQEiCMrDLY1LDA/profile-displayphoto-shrink_800_800/0/1681837387209?e=2147483647&v=beta&t=utNXmvmeIM6XkzSoGLr1J54G67vIJCKtJz-5gXj45-o" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Abrar sir</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="img_mountains.jpg">
+          <img src="https://media.licdn.com/dms/image/C4D03AQHdEipvBuY2AA/profile-displayphoto-shrink_800_800/0/1655881784228?e=2147483647&v=beta&t=bDFr0Q116izaZ4DF5oMmx6RSedrgrydBuaF4a9K7vvs" alt="Mountains" width="600" height="400">
+        </a>
+        <div class="desc">Poonam Maam</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="img_mountains.jpg">
+          <img src="https://media.licdn.com/dms/image/D4D03AQHQMyoG-RnkWw/profile-displayphoto-shrink_800_800/0/1681796119482?e=2147483647&v=beta&t=7j3buDvM5RIZRVuK-3rZEymRdG8tppoX_dY6RnBpMTc" alt="Mountains" width="600" height="400">
+        </a>
+        <div class="desc">Ayushi Maam</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="img_mountains.jpg">
+          <img src="https://media.licdn.com/dms/image/C4D03AQEKRkQfZ6BtAg/profile-displayphoto-shrink_800_800/0/1654357231724?e=2147483647&v=beta&t=v-SnNQjup4VgCmvIcO6ku7yLaIMQ8qXFgTvCjWTpx8I" alt="Mountains" width="600" height="400">
+        </a>
+        <div class="desc">Uma Maam</div>
+      </div>
+
+      <div class="gallery" id="center">
+        <a target="_blank" href="img_mountains.jpg">
+          <img src="https://media.licdn.com/dms/image/D4E03AQHtp6NW_WAyFQ/profile-displayphoto-shrink_400_400/0/1671523277461?e=2147483647&v=beta&t=n20EhPI73b7gjxxN_LVtJ4qzsZ9BNOXVH7M6e6VaNEs" alt="Mountains" width="600" height="400">
+        </a>
+        <div class="desc">Andrea Maam</div>
+      </div>
+
+  </section>
+
+  <section id="contact">
+
+    <div class="content">
+
+    </div>
+
+  </section>
+</style>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <footer>By Rannvijay and Rishabh of 6 Ranthambore</footer>
+</body>
+
+</html>
